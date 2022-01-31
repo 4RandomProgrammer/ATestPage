@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  margin: auto;
+}
+
+
+body {
+  font-size: 15pt;
+}
+
+header {
+  color: white;
+  text-align: center;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, rgb(107,107, 241), #159957);
+  padding: 5rem 6rem;
+}
+
+header h2 {
+  font-size: 12pt;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  font: italic;
+  text-align: center;
+  background: #404344;
+  color: whitesmoke
+}
