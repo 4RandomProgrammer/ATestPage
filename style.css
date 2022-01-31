@@ -12,13 +12,58 @@ body {
 header {
   color: white;
   text-align: center;
+
+}
+
+.header_content{
+  padding: 5rem 6rem;
   background-color: #159957;
   background-image: linear-gradient(120deg, rgb(107,107, 241), #159957);
-  padding: 5rem 6rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #24252A;
+  padding: 5px;
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3 ease 0s;
+  text-decoration: none;
+  color: white;
+}
+
+.nav_links li a:hover{
+  color:#0088a9;
 }
 
 header h2 {
   font-size: 12pt;
+}
+
+nav button{
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 ease 0s;
+  color: white;
+}
+
+nav button:hover{
+  background-color: rgba(0, 136, 169, 0.8);
 }
 
 section {
@@ -33,5 +78,10 @@ footer {
   font: italic;
   text-align: center;
   background: #404344;
-  color: whitesmoke
+  color: whitesmoke;
 }
+
+
+
+
+
