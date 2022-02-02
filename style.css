@@ -102,16 +102,49 @@ section {
 }
 
 form .user-details .input-box {
+  margin: 20px 0 12px 0;
   width: calc(100%/2-20px);
 }
 
 .details {
-  margin-bottom:5px;
+  margin:5px;
 }
 
 .input-box input{
   height: 45px;
   width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #9b56b6;
+}
+
+form .button{
+  height: 45px;
+  margin: 40px 0;
+}
+
+form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #71b7e6,#9b56b6);
+}
+
+form .button input:hover{
+  background: linear-gradient(-135deg, #71b7e6,#9b56b6);
 }
 
 footer {
@@ -119,4 +152,25 @@ footer {
   text-align: center;
   background: #24252A;
   color: whitesmoke;
+}
+
+
+@media (max-width: 584px) {
+  .container{
+    max-width: 100%;
+  }
+
+  form .user-details .input-box {
+    margin: 15px;
+    width: 100%;
+  }
+
+  .container form .user-datails{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .user-datails::-webkit-scrollbar{
+    width: 0;
+  }
 }
