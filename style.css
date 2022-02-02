@@ -74,16 +74,16 @@ section {
 
 .above-container{
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #71b7e6,#9b56b6);
   margin: auto;
   padding: 10px;
+  overflow: hidden;
 }
 
 .container {
-  max-width: 700px;
+  max-width: 600px;
   width: 100%;
   background: white;
   padding: 25px 30px;
@@ -92,7 +92,6 @@ section {
 
 .container .title{
   font-size:25px;
-  font-weight: 500;
 }
 
 .container form .user-datails{
@@ -104,10 +103,6 @@ section {
 form .user-details .input-box {
   margin: 20px 0 12px 0;
   width: calc(100%/2-20px);
-}
-
-.details {
-  margin:5px;
 }
 
 .input-box input{
@@ -128,7 +123,7 @@ form .user-details .input-box {
 
 form .button{
   height: 45px;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 form .button input{
@@ -137,7 +132,7 @@ form .button input{
   outline: none;
   color: #fff;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 5px;
   letter-spacing: 1px;
   background: linear-gradient(135deg, #71b7e6,#9b56b6);
@@ -174,8 +169,3 @@ footer {
     width: 0;
   }
 }
-
-
-
-
-
