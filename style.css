@@ -12,7 +12,6 @@ body {
 header {
   color: white;
   text-align: center;
-
 }
 
 .header_content{
@@ -105,7 +104,8 @@ form .user-details .input-box {
   width: calc(100%/2-20px);
 }
 
-.input-box input{
+.input-box input,
+.input-box textarea{
   height: 45px;
   width: 100%;
   outline: none;
@@ -114,6 +114,11 @@ form .user-details .input-box {
   padding-left: 15px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
+}
+
+.field{
+  min-height: 150px;
+  font-size: 19px;
 }
 
 .input-box input:focus,
@@ -132,7 +137,7 @@ form .button input{
   outline: none;
   color: #fff;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   border-radius: 5px;
   letter-spacing: 1px;
   background: linear-gradient(135deg, #71b7e6,#9b56b6);
