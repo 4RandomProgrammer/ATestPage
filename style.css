@@ -176,7 +176,8 @@ footer {
   font: italic;
   text-align: center;
   background: #24252A;
-  color: whitesmoke;
+  color: white;
+  padding: 2rem;
 }
 
 
