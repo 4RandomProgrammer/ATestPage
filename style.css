@@ -172,14 +172,40 @@ form .button input:hover{
   background: linear-gradient(-135deg, #71b7e6,#9b56b6);
 }
 
+.hora-do-dia{
+  background: rgb(107,107, 241);
+  text-align: center;
+  padding: 2rem;
+}
+
+.hora-do-dia .titulo{
+  margin-bottom: 1rem;
+  color: white; 
+}
+
+.hora-do-dia .centro{
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 700px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+}
+
+#foto-do-dia{
+  border-radius: 20%;
+  max-width: 400px;
+  max-height: 600px
+}
+
 footer {
   font: italic;
   text-align: center;
   background: #24252A;
-  color: white;
+  color: whitesmoke;
   padding: 2rem;
 }
-
 
 .to-top{
   background: white;
@@ -224,4 +250,9 @@ footer {
   .user-datails::-webkit-scrollbar{
     width: 0;
   }
+
+  #foto-do-dia{
+    width: 100%
+  }
+
 }
